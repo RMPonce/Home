@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en" class="h-full">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">  
+<title>Rynerose Mae Ponce</title>
+  
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+
+ 
+</head>
+<body class="h-full gradient-bg text-white overflow-auto pt-2">
+
+
+  <!-- Navigation -->
+  <nav class="fixed top-0 left-0 right-0 z-50 glass-card">
+    <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+      
+      <!-- Profile Image -->
+      <div class="w-10 h-10 rounded-full overflow-hidden">
+        <img src="IMG/profile.png" alt="Profile Picture" class="w-full h-full object-cover">
+      </div>
+
+<div class="flex gap-4 overflow-x-auto">	 <a href="index.html" class="nav-link text-gray-300 hover:text-white text-sm">Home</a>	  
+	 <a href="aboutme.html" class="nav-link text-gray-300 hover:text-white text-sm">About</a> 
+     <a href="services.html" class="nav-link text-gray-300 hover:text-white text-sm">Services</a>		
+	 <a href="skills.html" class="nav-link text-gray-300 hover:text-white text-sm">Skills</a> 
+	 <a href="experience.html" class="nav-link text-gray-300 hover:text-white text-sm">Experience</a> 
+	 <a href="education.html" class="nav-link text-gray-300 hover:text-white text-sm">Education</a> 
+	 <a href="sampleprojects.html" class="nav-link text-gray-300 hover:text-white text-sm">Sample Projects</a>
+
+     </div><a href="contact.html" class="accent-gradient px-4 py-2 rounded-full text-sm font-medium hover:opacity-90 transition-opacity"> Contact </a>
+    </div>
+	</nav>
+	
+	<!-- Experience Section -->
+
+
+<section id="experience" class="min-h-screen flex items-center px-6 py-20 relative">    
+<div class="absolute inset-0 bg-gradient-to-b from-transparent via-indigo-900/10 to-transparent"></div>
+    <div class="max-w-6xl mx-auto relative z-10">
+     <div class="text-center mb-4">
+	 
+      <p class="text-indigo-400 font-medium mb-2 tracking-widest uppercase text-sm">Career Journey</p>
+      <h2 class="font-display text-4xl font-bold">Work <span class="text-gradient">Experience</span></h2>
+    </div>
+
+    <!-- Timeline Container -->
+    <div class="relative w-full">
+      <!-- Timeline Line -->
+      <div class="absolute left-1/2 transform -translate-x-1/2 top-0 bottom-0 w-px bg-gradient-to-b from-indigo-500 via-purple-500 to-indigo-500"></div>
+
+      <!-- Timeline Items -->
+      <div class="w-full max-w-3xl mx-auto space-y-0">
+        <!-- Experience 1 -->
+        <div class="p-12 flex flex-col md:flex-row gap-8 items-center w-full">
+          <div class="md:w-1/2 md:text-right md:pr-12">
+            <div class="experience-card glass-card rounded-2xl p-6">
+              <div class="flex items-center gap-3 mb-3 md:justify-end">
+                <span class="px-3 py-1 rounded-full text-xs font-medium accent-gradient">Contractual</span>
+              </div>
+              <h3 class="font-display text-xl font-semibold mb-2">Statistical Researcher</h3>
+              <p class="text-indigo-400 text-sm mb-3">Philippine Statistics Authority</p>
+              <p class="text-gray-400 text-sm mb-4">Commodity and Outlet Survey</p>
+            </div>
+          </div>
+
+          <!-- Timeline Dot -->
+          <div class="hidden md:block absolute left-1/2 transform -translate-x-1/2">
+            <div class="timeline-dot w-4 h-4 rounded-full"></div>
+          </div>
+
+          <div class="md:w-1/2 md:pl-12">
+            <span class="text-gray-400 text-sm">
+              <li>Collected and organized large sets of survey data</li>
+              <li>Maintained data accuracy and validation standards</li>
+              <li>Encoded and structured reports using spreadsheets</li>
+              <li>Communicated professionally with respondents</li>
+            </span>
+          </div>
+        </div>
+
+        <!-- Experience 2 -->
+        <div class="py-36 flex flex-col md:flex-row-reverse gap-8 items-center w-full">
+          <div class="md:w-1/2 md:text-left md:pl-12">
+            <div class="experience-card glass-card rounded-2xl p-6">
+              <div class="flex items-center gap-3 mb-3">
+                <span class="px-3 py-1 rounded-full text-xs font-medium accent-gradient">Full-time</span>
+              </div>
+              <h3 class="font-display text-xl font-semibold mb-2">Documentation Encoder</h3>
+              <p class="text-indigo-400 text-sm mb-3">Nuebe Service Cooperative</p>
+              <p class="text-gray-400 text-sm mb-4">Puregold Price Club</p>
+            </div>
+          </div>
+
+          <!-- Timeline Dot -->
+          <div class="hidden md:block absolute left-1/2 transform -translate-x-1/2">
+            <div class="timeline-dot w-4 h-4 rounded-full"></div>
+          </div>
+
+          <div class="md:w-1/2 md:pr-12 md:text-ri">
+            <span class="text-gray-400 text-sm">
+              <li>Performed high-volume data entry with strong accuracy</li>
+              <li>Organized digital files and documentation systems</li>
+              <li>Assisted with administrative and reporting tasks</li>
+              <li>Ensured timely submission of records</li>
+            </span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+		<script>
+  // Prevent Ctrl + scroll zoom
+  document.addEventListener('wheel', function(e) {
+    if (e.ctrlKey) {
+      e.preventDefault();
+    }
+  }, { passive: false });
+</script>
+</body>
+</html>
